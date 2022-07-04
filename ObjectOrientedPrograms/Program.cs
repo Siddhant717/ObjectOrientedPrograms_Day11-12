@@ -20,7 +20,7 @@ namespace ObjectOrientedPrograms
                 Console.WriteLine(data.TypesOfRice[i].Price);
                
             }
-            Console.WriteLine("--------------");
+            Console.WriteLine("-----------------");
             for (int i = 0; i < data.TypesOfGrains.Count; i++)
             {
                 Console.WriteLine(data.TypesOfGrains[i].Name);
@@ -29,7 +29,7 @@ namespace ObjectOrientedPrograms
                 
             }
 
-            Console.WriteLine("--------------");
+            Console.WriteLine("-----------------");
             for (int i = 0; i < data.TypesOfWheats.Count; i++)
             {
                 Console.WriteLine(data.TypesOfWheats[i].Name);
